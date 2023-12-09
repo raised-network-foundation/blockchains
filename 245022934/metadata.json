@@ -1,35 +1,21 @@
 {
   "id": "neon-evm",
+  "chainId": 245022934,
   "name": "Neon EVM",
   "description": "Neon EVM is a smart contract on Solana. Solana is a fast-growing blockchain, which uses a proof-of-history consensus mechanism.",
   "explorer": "https://neonscan.org/",
   "symbol": "NEON",
   "decimals": 18,
-  "status": "operating",
+  "status": "active",
+  "type": "mainnet",
   "rpc_urls": [
     {
       "issuer": "",
       "url": "https://neon-proxy-mainnet.solana.p2p.org",
-      "chain_id": 245022934,
-      "type": "mainnet"
     },
     {
       "issuer": "",
       "url": "https://neon-mainnet.everstake.one",
-      "chain_id": 245022934,
-      "type": "mainnet"
-    },
-    {
-      "issuer": "",
-      "url": "https://proxy.devnet.neonlabs.org/solana",
-      "chain_id": 245022926,
-      "type": "testnet"
-    },
-    {
-      "issuer": "",
-      "url": "https://devnet.neonevm.org",
-      "chain_id": 245022926,
-      "type": "testnet"
     }
   ],
   "external_urls": [
